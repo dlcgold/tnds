@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dlcgold/Documenti/c++/1/Posizione.h
+cmath
+-
+
+/home/dlcgold/Documenti/c++/1/main.cpp
+iostream
+-
+Posizione.h
+/home/dlcgold/Documenti/c++/1/Posizione.h
+cstdlib
+-
+
