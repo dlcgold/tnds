@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/esercizio.dir/main.cpp.o CMakeFiles/esercizio.dir/Vector.cpp.o CMakeFiles/esercizio.dir/funct.cpp.o  -o esercizio 
