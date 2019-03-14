@@ -3,4 +3,4 @@ project(lezione1)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(lezione1 main.cpp)
+add_executable(lezione1 main.cpp funct.cpp funct.h)

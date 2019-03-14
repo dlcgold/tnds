@@ -123,6 +123,33 @@ lezione1/fast:
 	$(MAKE) -f CMakeFiles/lezione1.dir/build.make CMakeFiles/lezione1.dir/build
 .PHONY : lezione1/fast
 
+funct.o: funct.cpp.o
+
+.PHONY : funct.o
+
+# target to build an object file
+funct.cpp.o:
+	$(MAKE) -f CMakeFiles/lezione1.dir/build.make CMakeFiles/lezione1.dir/funct.cpp.o
+.PHONY : funct.cpp.o
+
+funct.i: funct.cpp.i
+
+.PHONY : funct.i
+
+# target to preprocess a source file
+funct.cpp.i:
+	$(MAKE) -f CMakeFiles/lezione1.dir/build.make CMakeFiles/lezione1.dir/funct.cpp.i
+.PHONY : funct.cpp.i
+
+funct.s: funct.cpp.s
+
+.PHONY : funct.s
+
+# target to generate assembly for a file
+funct.cpp.s:
+	$(MAKE) -f CMakeFiles/lezione1.dir/build.make CMakeFiles/lezione1.dir/funct.cpp.s
+.PHONY : funct.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... lezione1"
 	@echo "... edit_cache"
+	@echo "... funct.o"
+	@echo "... funct.i"
+	@echo "... funct.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

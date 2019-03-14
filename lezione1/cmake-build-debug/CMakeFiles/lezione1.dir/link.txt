@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/lezione1.dir/main.cpp.o  -o lezione1 
+/usr/bin/c++  -g   CMakeFiles/lezione1.dir/main.cpp.o CMakeFiles/lezione1.dir/funct.cpp.o  -o lezione1 

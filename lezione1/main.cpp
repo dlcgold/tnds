@@ -7,14 +7,7 @@
  * in cui il programma viene eseguito.
  * Cerchiamo di costruire il codice passo passo.
  */
-
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <cmath>
-#include <algorithm>
-
-using namespace std;
+#include "funct.h"
 
 int main(int argc, char** argv) {
     if(argc < 3){
@@ -42,45 +35,23 @@ int main(int argc, char** argv) {
         }
     }
 
-    // calcolo media
+    // calcolo media, varianza e mediana
 
-    double somma = 0;
-    for (int j = 0; j < ndata; ++j) {
-        somma += data[j];
-    }
+    double media = mean(data, ndata);
+    cout << "la media è: " << setprecision(2) << media << endl;
 
-    double media = somma / ndata;
-    cout << "la media è: " << media << endl;
-    double sommav = 0;
-    for (int k = 0; k < ndata; ++k) {
-        sommav = pow(data[k]-media,2);
-    }
-    double varianza = sommav / ndata;
+    double varianza = var(data, ndata);
     cout << "la varianza è: " << varianza << endl;
 
-    // copia del vettore
-    double* copydata = new double[ndata];
-    for (int l = 0; l < ndata; ++l) {
-        copydata[l] = data[l];
-    }
-    // ordino copydata
-    sort(copydata, copydata + ndata);
-
-    double mediana = 0;
-    if(ndata % 2 == 0) {
-        mediana = (copydata[ndata / 2] + copydata[ndata / 2 + 1]) / 2;
-    } else {
-        mediana = copydata[ndata / 2];
-    }
+    double mediana = mid(data, ndata);
     cout << "la mediana è: " << mediana << endl;
 
     // scrivo copydata su file
-    ofstream out("sort.data");
-    for (int m = 0; m < ndata; ++m) {
-        out << copydata[m] << endl;
-    }
+    out(data, ndata);
 
-    delete [] copydata;
+    Print(data, ndata);
+
     delete [] data;
     return 0;
 }
+

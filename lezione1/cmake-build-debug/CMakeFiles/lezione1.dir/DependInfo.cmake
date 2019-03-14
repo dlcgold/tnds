@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/dlcgold/Documenti/tnds/lezione1/funct.cpp" "/home/dlcgold/Documenti/tnds/lezione1/cmake-build-debug/CMakeFiles/lezione1.dir/funct.cpp.o"
   "/home/dlcgold/Documenti/tnds/lezione1/main.cpp" "/home/dlcgold/Documenti/tnds/lezione1/cmake-build-debug/CMakeFiles/lezione1.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
