@@ -10,6 +10,7 @@
 #include <fstream>
 #include <cmath>
 #include <assert.h>
+#include <algorithm>
 
 using namespace std;
 
