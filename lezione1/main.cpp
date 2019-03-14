@@ -79,5 +79,8 @@ int main(int argc, char** argv) {
     for (int m = 0; m < ndata; ++m) {
         out << copydata[m] << endl;
     }
+
+    delete [] copydata;
+    delete [] data;
     return 0;
 }
