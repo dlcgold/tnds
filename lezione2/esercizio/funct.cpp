@@ -37,21 +37,16 @@ double mid(Vector & v){
     return mediana;
 }
 
-/*void out(double* data, int ndata){
-    double* copydata = new double[ndata];
-    for (int l = 0; l < ndata; ++l) {
-        copydata[l] = data[l];
-    }
-    // ordino copydata
-    sort(copydata, copydata + ndata);
+void out(Vector & v){
+    double* copydata = v.SortArray();
     ofstream out("sort.data");
-    for (int m = 0; m < ndata; ++m) {
+    for (int m = 0; m < v.GetN(); ++m) {
         out << copydata[m] << endl;
     }
 }
 
-void Print(double* data, int ndata){
-    for (int i = 0; i < ndata; ++i) {
-        cout << data[i] <<endl;
+void Print(const Vector & v){
+    for (int i = 0; i < v.GetN(); ++i) {
+        cout << v.GetComponent(i) <<endl;
     }
-}*/
+}

@@ -27,6 +27,7 @@ int main(int argc, char** argv) {
     cout << "la varianza è: " << var(v) << endl;
     cout << "la mediana è: " << mid(v) << endl;
 
-    // manca output su file
+    out(v);
+    Print(v);
     return 0;
 }

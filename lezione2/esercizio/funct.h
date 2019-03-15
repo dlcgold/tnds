@@ -18,7 +18,7 @@ using namespace std;
 double mean(const Vector &);
 double var(const Vector &);
 double mid(Vector &);
-void out(double*, int);
+void out(Vector &);
 void Print(const Vector &);
 
 #endif //LEZIONE1_FUNCT_H
