@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="classe_vector"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="classe_vector">
+				<Option output="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/classe_vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 classe_vector"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="classe_vector/fast">
+				<Option output="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/classe_vector" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/../../../../include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 classe_vector/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/dlcgold/Documenti/tnds/lezione3/classe_vector/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/Vector.h">
+			<Option target="classe_vector"/>
+		</Unit>
+		<Unit filename="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/main.cpp">
+			<Option target="classe_vector"/>
+		</Unit>
+		<Unit filename="/home/dlcgold/Documenti/tnds/lezione3/classe_vector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
