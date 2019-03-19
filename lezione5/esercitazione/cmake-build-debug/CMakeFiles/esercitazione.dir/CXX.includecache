@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dlcgold/Documenti/tnds/lezione5/esercitazione/main.cpp
+iostream
+-
+posizione.h
+/home/dlcgold/Documenti/tnds/lezione5/esercitazione/posizione.h
+
+/home/dlcgold/Documenti/tnds/lezione5/esercitazione/posizione.cpp
+posizione.h
+/home/dlcgold/Documenti/tnds/lezione5/esercitazione/posizione.h
+cmath
+-
+
+/home/dlcgold/Documenti/tnds/lezione5/esercitazione/posizione.h
+
