@@ -84,7 +84,7 @@ template <typename T> T mid(Vector<T> & v){
     if(v.GetN() % 2 == 0) {
         mediana = (copy[v.GetN() / 2] + copy[v.GetN() / 2 +1]) /2;
     } else {
-        mediana = copy[v.GetN() /2];
+        mediana = copy[v.GetN() / 2];
     }
     return mediana;
 }

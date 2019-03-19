@@ -24,7 +24,7 @@ Vector::Vector(int N){
 
 Vector::Vector(const Vector& V) {
     m_N = V.GetN();
-    m_v = new double_t[m_N];
+    m_v = new double[m_N];
     for (int i = 0; i < m_N ; ++i) {
         m_v[i] = V.GetComponent(i);
     }

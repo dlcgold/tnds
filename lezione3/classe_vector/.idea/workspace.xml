@@ -56,8 +56,6 @@
       <change beforePath="$PROJECT_DIR$/../Vector.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vector.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exe.x" beforeDir="false" afterPath="$PROJECT_DIR$/exe.x" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeCache.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
@@ -95,6 +93,8 @@
       <change beforePath="$PROJECT_DIR$/../funct.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../main.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../out.data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lezione4/esercitazione/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lezione4/esercitazione/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lezione4/esercitazione/funct.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../lezione4/esercitazione/funct.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -235,12 +235,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552642768882</updated>
-      <workItem from="1552642770318" duration="2218000" />
+      <workItem from="1552642770318" duration="2891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2218000" />
+    <option name="totallyTimeSpent" value="2891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="683" height="741" extended-state="0" />

@@ -77,7 +77,7 @@ double comune::getVar() const {
     return m_varianza;
 }
 
-double comune::getNabitanti() const {
+int comune::getNabitanti() const {
     return m_nabitanti;
 }
 
@@ -85,7 +85,7 @@ double comune::getMeanError() const {
     return sqrt(m_varianza / double (m_nabitanti));
 }
 
-vector<int> &comune::getDistribuzione() const {
+vector<int> comune::getDistribuzione() const {
     return m_distribuzione;
 }
 
