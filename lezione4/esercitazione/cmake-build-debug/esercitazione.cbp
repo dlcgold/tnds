@@ -95,6 +95,12 @@
 		<Unit filename="/home/dlcgold/Documenti/tnds/lezione4/esercitazione/main.cpp">
 			<Option target="esercitazione"/>
 		</Unit>
+		<Unit filename="/home/dlcgold/Documenti/tnds/lezione4/esercitazione/particella.cpp">
+			<Option target="esercitazione"/>
+		</Unit>
+		<Unit filename="/home/dlcgold/Documenti/tnds/lezione4/esercitazione/particella.h">
+			<Option target="esercitazione"/>
+		</Unit>
 		<Unit filename="/home/dlcgold/Documenti/tnds/lezione4/esercitazione/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

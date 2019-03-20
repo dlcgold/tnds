@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dlcgold/Documenti/tnds/lezione5/esercizio/main.cpp
+particella.h
+/home/dlcgold/Documenti/tnds/lezione5/esercizio/particella.h
+posizione.h
+/home/dlcgold/Documenti/tnds/lezione5/esercizio/posizione.h
+iostream
+-
+string
+-
+cmath
+-
+
+/home/dlcgold/Documenti/tnds/lezione5/esercizio/particella.h
+string
+-
+cmath
+-
+
+/home/dlcgold/Documenti/tnds/lezione5/esercizio/posizione.h
+

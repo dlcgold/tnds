@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+particella.o: particella.cpp.o
+
+.PHONY : particella.o
+
+# target to build an object file
+particella.cpp.o:
+	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/particella.cpp.o
+.PHONY : particella.cpp.o
+
+particella.i: particella.cpp.i
+
+.PHONY : particella.i
+
+# target to preprocess a source file
+particella.cpp.i:
+	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/particella.cpp.i
+.PHONY : particella.cpp.i
+
+particella.s: particella.cpp.s
+
+.PHONY : particella.s
+
+# target to generate assembly for a file
+particella.cpp.s:
+	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/particella.cpp.s
+.PHONY : particella.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... particella.o"
+	@echo "... particella.i"
+	@echo "... particella.s"
 .PHONY : help
 
 

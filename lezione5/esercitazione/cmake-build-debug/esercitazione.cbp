@@ -83,6 +83,12 @@
 		<Unit filename="/home/dlcgold/Documenti/tnds/lezione5/esercitazione/main.cpp">
 			<Option target="esercitazione"/>
 		</Unit>
+		<Unit filename="/home/dlcgold/Documenti/tnds/lezione5/esercitazione/particella.cpp">
+			<Option target="esercitazione"/>
+		</Unit>
+		<Unit filename="/home/dlcgold/Documenti/tnds/lezione5/esercitazione/particella.h">
+			<Option target="esercitazione"/>
+		</Unit>
 		<Unit filename="/home/dlcgold/Documenti/tnds/lezione5/esercitazione/posizione.cpp">
 			<Option target="esercitazione"/>
 		</Unit>

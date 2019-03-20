@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/esercitazione.dir/main.cpp.o"
   "CMakeFiles/esercitazione.dir/funct.cpp.o"
   "CMakeFiles/esercitazione.dir/comune.cpp.o"
+  "CMakeFiles/esercitazione.dir/particella.cpp.o"
   "esercitazione.pdb"
   "esercitazione"
 )
