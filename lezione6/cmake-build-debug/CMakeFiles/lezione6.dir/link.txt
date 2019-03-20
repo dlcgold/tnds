@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lezione6.dir/main.cpp.o CMakeFiles/lezione6.dir/posizione.cpp.o CMakeFiles/lezione6.dir/Campovettoriale.cpp.o CMakeFiles/lezione6.dir/particella.cpp.o  -o lezione6 

@@ -48,10 +48,10 @@ RM = /home/dlcgold/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/183.5153.40/bi
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dlcgold/Documenti/tnds/lezione4/esercitazione
+CMAKE_SOURCE_DIR = /home/dlcgold/Documenti/tnds/lezione6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dlcgold/Documenti/tnds/lezione4/esercitazione/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dlcgold/Documenti/tnds/lezione6/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dlcgold/Documenti/tnds/lezione4/esercitazione/cmake-build-debug/CMakeFiles /home/dlcgold/Documenti/tnds/lezione4/esercitazione/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dlcgold/Documenti/tnds/lezione6/cmake-build-debug/CMakeFiles /home/dlcgold/Documenti/tnds/lezione6/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dlcgold/Documenti/tnds/lezione4/esercitazione/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dlcgold/Documenti/tnds/lezione6/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,71 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named esercitazione
+# Target rules for targets named lezione6
 
 # Build rule for target.
-esercitazione: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 esercitazione
-.PHONY : esercitazione
+lezione6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lezione6
+.PHONY : lezione6
 
 # fast build rule for target.
-esercitazione/fast:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/build
-.PHONY : esercitazione/fast
+lezione6/fast:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/build
+.PHONY : lezione6/fast
 
-comune.o: comune.cpp.o
+Campovettoriale.o: Campovettoriale.cpp.o
 
-.PHONY : comune.o
-
-# target to build an object file
-comune.cpp.o:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/comune.cpp.o
-.PHONY : comune.cpp.o
-
-comune.i: comune.cpp.i
-
-.PHONY : comune.i
-
-# target to preprocess a source file
-comune.cpp.i:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/comune.cpp.i
-.PHONY : comune.cpp.i
-
-comune.s: comune.cpp.s
-
-.PHONY : comune.s
-
-# target to generate assembly for a file
-comune.cpp.s:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/comune.cpp.s
-.PHONY : comune.cpp.s
-
-funct.o: funct.cpp.o
-
-.PHONY : funct.o
+.PHONY : Campovettoriale.o
 
 # target to build an object file
-funct.cpp.o:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/funct.cpp.o
-.PHONY : funct.cpp.o
+Campovettoriale.cpp.o:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/Campovettoriale.cpp.o
+.PHONY : Campovettoriale.cpp.o
 
-funct.i: funct.cpp.i
+Campovettoriale.i: Campovettoriale.cpp.i
 
-.PHONY : funct.i
+.PHONY : Campovettoriale.i
 
 # target to preprocess a source file
-funct.cpp.i:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/funct.cpp.i
-.PHONY : funct.cpp.i
+Campovettoriale.cpp.i:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/Campovettoriale.cpp.i
+.PHONY : Campovettoriale.cpp.i
 
-funct.s: funct.cpp.s
+Campovettoriale.s: Campovettoriale.cpp.s
 
-.PHONY : funct.s
+.PHONY : Campovettoriale.s
 
 # target to generate assembly for a file
-funct.cpp.s:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/funct.cpp.s
-.PHONY : funct.cpp.s
+Campovettoriale.cpp.s:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/Campovettoriale.cpp.s
+.PHONY : Campovettoriale.cpp.s
 
 main.o: main.cpp.o
 
@@ -183,7 +156,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -192,7 +165,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -201,8 +174,62 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/esercitazione.dir/build.make CMakeFiles/esercitazione.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+particella.o: particella.cpp.o
+
+.PHONY : particella.o
+
+# target to build an object file
+particella.cpp.o:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/particella.cpp.o
+.PHONY : particella.cpp.o
+
+particella.i: particella.cpp.i
+
+.PHONY : particella.i
+
+# target to preprocess a source file
+particella.cpp.i:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/particella.cpp.i
+.PHONY : particella.cpp.i
+
+particella.s: particella.cpp.s
+
+.PHONY : particella.s
+
+# target to generate assembly for a file
+particella.cpp.s:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/particella.cpp.s
+.PHONY : particella.cpp.s
+
+posizione.o: posizione.cpp.o
+
+.PHONY : posizione.o
+
+# target to build an object file
+posizione.cpp.o:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/posizione.cpp.o
+.PHONY : posizione.cpp.o
+
+posizione.i: posizione.cpp.i
+
+.PHONY : posizione.i
+
+# target to preprocess a source file
+posizione.cpp.i:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/posizione.cpp.i
+.PHONY : posizione.cpp.i
+
+posizione.s: posizione.cpp.s
+
+.PHONY : posizione.s
+
+# target to generate assembly for a file
+posizione.cpp.s:
+	$(MAKE) -f CMakeFiles/lezione6.dir/build.make CMakeFiles/lezione6.dir/posizione.cpp.s
+.PHONY : posizione.cpp.s
 
 # Help Target
 help:
@@ -211,17 +238,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... esercitazione"
+	@echo "... lezione6"
 	@echo "... edit_cache"
-	@echo "... comune.o"
-	@echo "... comune.i"
-	@echo "... comune.s"
-	@echo "... funct.o"
-	@echo "... funct.i"
-	@echo "... funct.s"
+	@echo "... Campovettoriale.o"
+	@echo "... Campovettoriale.i"
+	@echo "... Campovettoriale.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... particella.o"
+	@echo "... particella.i"
+	@echo "... particella.s"
+	@echo "... posizione.o"
+	@echo "... posizione.i"
+	@echo "... posizione.s"
 .PHONY : help
 
 

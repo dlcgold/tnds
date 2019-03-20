@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dlcgold/Documenti/tnds/lezione6/Campovettoriale.cpp
+Campovettoriale.h
+/home/dlcgold/Documenti/tnds/lezione6/Campovettoriale.h
+posizione.h
+/home/dlcgold/Documenti/tnds/lezione6/posizione.h
+cmath
+-
+
+/home/dlcgold/Documenti/tnds/lezione6/Campovettoriale.h
+posizione.h
+/home/dlcgold/Documenti/tnds/lezione6/posizione.h
+particella.h
+/home/dlcgold/Documenti/tnds/lezione6/particella.h
+cmath
+-
+
+/home/dlcgold/Documenti/tnds/lezione6/particella.h
+string
+-
+cmath
+-
+
+/home/dlcgold/Documenti/tnds/lezione6/posizione.h
+
