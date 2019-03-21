@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dlcgold/Documenti/tnds/lezione7/esercizio/FunzioneBase.h
+
+/home/dlcgold/Documenti/tnds/lezione7/esercizio/main.cpp
+iostream
+-
+iomanip
+-
+cmath
+-
+FunzioneBase.h
+/home/dlcgold/Documenti/tnds/lezione7/esercizio/FunzioneBase.h
+

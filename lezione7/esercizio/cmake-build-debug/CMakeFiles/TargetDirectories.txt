@@ -1,0 +1,3 @@
+/home/dlcgold/Documenti/tnds/lezione7/esercizio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dlcgold/Documenti/tnds/lezione7/esercizio/cmake-build-debug/CMakeFiles/esercizio.dir
+/home/dlcgold/Documenti/tnds/lezione7/esercizio/cmake-build-debug/CMakeFiles/edit_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/esercizio.dir/main.cpp.o CMakeFiles/esercizio.dir/parabola.cpp.o CMakeFiles/esercizio.dir/solutore.cpp.o CMakeFiles/esercizio.dir/Tan.cpp.o  -o esercizio 
