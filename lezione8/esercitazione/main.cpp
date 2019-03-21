@@ -20,5 +20,7 @@ int main(int argc, char** argv) {
     integrale* integral = new integrale(a, b, mysin);
 
     cout << setprecision(12) << integral -> Midpoint(nstep) << endl;
+    cout << setprecision(12) << integral -> Simpson(nstep) << endl;
+
     return 0;
 }
