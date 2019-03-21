@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dlcgold/Documenti/tnds/lezione8/esercitazione/FunzioneBase.h
+cmath
+-
+
+/home/dlcgold/Documenti/tnds/lezione8/esercitazione/integrale.cpp
+integrale.h
+/home/dlcgold/Documenti/tnds/lezione8/esercitazione/integrale.h
+algorithm
+-
+
+/home/dlcgold/Documenti/tnds/lezione8/esercitazione/integrale.h
+FunzioneBase.h
+/home/dlcgold/Documenti/tnds/lezione8/esercitazione/FunzioneBase.h
+
+/home/dlcgold/Documenti/tnds/lezione8/esercitazione/main.cpp
+iostream
+-
+cmath
+-
+iomanip
+-
+FunzioneBase.h
+/home/dlcgold/Documenti/tnds/lezione8/esercitazione/FunzioneBase.h
+integrale.h
+/home/dlcgold/Documenti/tnds/lezione8/esercitazione/integrale.h
+
