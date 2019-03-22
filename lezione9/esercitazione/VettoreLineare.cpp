@@ -4,6 +4,17 @@
 
 #include "VettoreLineare.h"
 
+VettoreLineare::VettoreLineare(unsigned int n) : Vettore(n){
+/*
+	m_N=n;
+	m_v= new double[m_N];
+	for(int u=0; u<m_N;u++){
+		m_v[u]=0;
+	}
+*/
+}
+
+VettoreLineare::~VettoreLineare(){}
 
 VettoreLineare VettoreLineare::operator+(const VettoreLineare & b) const {
     VettoreLineare r(GetN());

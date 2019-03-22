@@ -13,10 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f15f5bd6-3ee4-48d1-90a8-0e55aff0bfe0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/esercizio/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/esercizio/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lezione8/esercitazione/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lezione8/esercitazione/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lezione8/esercitazione/integrale.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lezione8/esercitazione/integrale.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lezione8/esercitazione/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lezione8/esercitazione/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lezione9/esercitazione/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lezione9/esercitazione/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="451">
+            <state relative-caret-position="525">
               <caret line="35" selection-start-line="35" selection-end-line="35" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
@@ -159,17 +157,17 @@
       <workItem from="1553096633933" duration="5123000" />
       <workItem from="1553155980500" duration="1635000" />
       <workItem from="1553167110418" duration="1233000" />
+      <workItem from="1553241138463" duration="26000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7991000" />
+    <option name="totallyTimeSpent" value="8017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="683" height="741" extended-state="4" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.256651" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26447573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -222,6 +220,16 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/solutore.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -238,16 +246,6 @@
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#41#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

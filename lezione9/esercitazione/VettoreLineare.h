@@ -7,7 +7,7 @@
 
 #include "Vettore.h"
 
-class VettoreLineare : public Vector{
+class VettoreLineare : public Vettore{
 public:
     VettoreLineare();
     VettoreLineare(unsigned int);

@@ -2,8 +2,8 @@
 // Created by dlcgold on 14/03/19.
 //
 
-#ifndef LEZIONE2_VECTOR_H
-#define LEZIONE2_VECTOR_H
+#ifndef ESERCITAZIONE_VETTORE_H
+#define ESERCITAZIONE_VETTORE_H
 
 #include <iostream>
 #include <iomanip>
@@ -14,19 +14,19 @@
 
 using namespace std;
 
-class Vector{
+class Vettore{
 public:
     //costruttori
 
-    Vector();
-    Vector(int N);
+    Vettore();
+    Vettore(int N);
     // copy constructor
-    Vector(const Vector&);
+    Vettore(const Vettore&);
     // overloading assegnatore assegnazione
-    Vector& operator = (const Vector&);
+    Vettore& operator = (const Vettore&);
     //distruttori
 
-    ~Vector();
+    ~Vettore();
 
     // getter della dimensione
     int GetN() const{
@@ -46,4 +46,4 @@ private:
     double* m_v; // vettore dati
 
 };
-#endif //LEZIONE2_VECTOR_H
+#endif //ESERCITAZIONE_VETTORE_H

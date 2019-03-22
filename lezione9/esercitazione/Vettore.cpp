@@ -3,12 +3,12 @@
 //
 #include "Vettore.h"
 
-Vector::Vector(){
+Vettore::Vettore(){
     m_N = 0;
     m_v = NULL;
 };
 
-Vector::Vector(int N){
+Vettore::Vettore(int N){
     assert((N >= 0) && "Error: size must be positive");
     if(N < 0){
         cerr << "Error: size must be positive" << endl;
@@ -22,7 +22,7 @@ Vector::Vector(int N){
     }
 }
 
-Vector::Vector(const Vector& V) {
+Vettore::Vettore(const Vettore& V) {
     m_N = V.GetN();
     m_v = new double[m_N];
     for (int i = 0; i < m_N ; ++i) {
@@ -30,7 +30,7 @@ Vector::Vector(const Vector& V) {
     }
 }
 
-Vector& Vector::operator=(const Vector& V) {
+Vettore& Vettore::operator=(const Vettore& V) {
     m_N = V.GetN();
     if(m_v) delete[] m_v;
     m_v = new double[m_N];
@@ -39,11 +39,11 @@ Vector& Vector::operator=(const Vector& V) {
     }
     return *this;
 }
-Vector::~Vector(){
+Vettore::~Vettore(){
     delete[] m_v;
 }
 
-void Vector::SetComponent(int i, double a) {
+void Vettore::SetComponent(int i, double a) {
     assert((m_N > i) && "Error: index too big");
     if( i < m_N) {
         m_v[i] = a;
@@ -53,7 +53,7 @@ void Vector::SetComponent(int i, double a) {
     }
 }
 
-double Vector::GetComponent(int i) const{
+double Vettore::GetComponent(int i) const{
     assert((m_N > i) && "Error: index too big");
     if( i < m_N) {
         return m_v[i];
@@ -62,13 +62,13 @@ double Vector::GetComponent(int i) const{
         exit(2);
     }
 }
-void Vector::Scambia(int primo, int secondo) {
+void Vettore::Scambia(int primo, int secondo) {
     double tmp = GetComponent(primo);
     SetComponent(primo, GetComponent(secondo));
     SetComponent(secondo, tmp);
 }
 
-double* Vector::SortArray() {
+double* Vettore::SortArray() {
     double* sorted = new double[m_N];
     for (int i = 0; i < m_N; ++i) {
         sorted[i] = m_v[i];
