@@ -27,12 +27,17 @@ VettoreLineare Eulero::passo(double t, const VettoreLineare &x, double h, Funzio
     return  x + f -> Eval(t, x) * h;
 }
 
-/*
-VettoreLineare Runge::Passo(double t, VettoreLineare &inizio, double h, FunzioneVettorialeBase *f) {
+Runge::Runge(){}
+
+Runge::~Runge(){}
+
+VettoreLineare Runge::passo(double t, const VettoreLineare &inizio, double h, FunzioneVettorialeBase *f) const {
     VettoreLineare x(2), y(2), z(2), w(2);
     x = f -> Eval(t, inizio);
     y = f -> Eval(t + h * 0.5, inizio + x * 0.5 *h);
     z = f -> Eval(t + h * 0.5, inizio + y * 0.5 *h);
     w = f -> Eval(t + h, inizio + z * h);
     return inizio + (x + y * 2 + z * 2 + w) * (h / 6.);
-}*/
+}
+
+

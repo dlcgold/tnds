@@ -37,9 +37,11 @@ public:
     virtual VettoreLineare passo(double t, const VettoreLineare& x, double h, FunzioneVettorialeBase* f) const;
 };
 
-/*class Runge : public EquazioneDifferenzialeBase{
+class Runge : public EquazioneDifferenzialeBase{
 public:
-    virtual VettoreLineare Passo(double t, const VettoreLineare & inizio, double h, FunzioneVettorialeBase *f) const;
-};*/
+    Runge();
+    ~Runge();
+    virtual VettoreLineare passo(double t, const VettoreLineare & x, double h, FunzioneVettorialeBase *f) const;
+};
 
 #endif //ESERCITAZIONE_EQUAZIONIDIFFERENZIALI_H
