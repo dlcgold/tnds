@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/montecarlo.dir/main.cpp.o  -o montecarlo 
